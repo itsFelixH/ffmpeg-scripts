@@ -23,4 +23,4 @@ You might need to tweak the parameters in order to get internet-shareable sizes.
 
 ## Thanks
 
-If you wish to say thanks, you can [buy me a coffee](https://ko-fi.com/cptneptun) or text me on Discord (`CptNeptun#9041`).
+If you wish to say thanks, you can text me on Discord (`CptNeptun#9041`).
