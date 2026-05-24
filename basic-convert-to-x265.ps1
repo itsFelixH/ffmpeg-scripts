@@ -16,7 +16,7 @@ $VideoFiles | ForEach-Object {
 	Write-Host "`n"
 	Write-Host "Processing '$_'"
 
-	# input and output file names
+	# output file name
 	$outputFile=$_.BaseName + "_x265.mkv"
 
 	ffmpeg -v quiet -stats -y -hide_banner -i $_ -c:v libx265 -x265-params log-level=error -pix_fmt yuv420p10le -profile:v main10 -map 0 -c:1 copy $outputFile
